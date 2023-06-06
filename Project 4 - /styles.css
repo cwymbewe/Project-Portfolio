@@ -1,0 +1,26 @@
+* {
+    border: 2px solid red;
+}
+
+html {
+    background-color: green;
+}
+
+body {
+    background-color: lightblue !important;
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 1px 1px 1px #e72424;
+    background-color: green;
+}
+
+p {
+    text-align: center;
+}

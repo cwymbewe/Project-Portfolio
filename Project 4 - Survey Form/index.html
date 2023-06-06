@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <section> <!--HEADING -->
+<!-- Q1 -->
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+<!-- Q2 -->
+        <p id="description">Thank yu for taking the time to help us improve the platform</p>
+    </section>
+
+    <section> <!--FORM -->
+<!-- Q3 -->
+        <form id="survey-form" action="">
+<!-- Q4 -->
+            <label for="name">
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </label>
+<!-- Q5 & Q6-->
+            <label for="email">
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+<!-- Q7, Q8 & Q9 -->
+            </label>
+            <label for="age">
+                <input type="number" id="number" name="age" placeholder="Age" min="15" max="65" required>
+            </label>
+<!-- Q10 & Q11 -->
+<!-- Q12 -->
+            <label for="role">Select your role
+                <select name="role" id="dropdown"> Role
+                    <option value="manager">Manager</option>
+                    <option value="sweeper">Sweeper</option>
+                </select>
+            </label>
+<!-- Q13 -->
+            <label for="recommendation">
+                <input type="radio" name="recommendation"> Definitely
+                <input type="radio" name="recommendation"> Maybe
+                <input type="radio" name="recommendation"> Not sure
+            </label>
+<!-- Q14 -->
+            <label for="checkboxes">
+                <input type="checkbox" value="01">Front-end Projects
+                <input type="checkbox" value="02">Back-end Projects
+                <input type="checkbox" value="03">Data Visualizations
+                <input type="checkbox" value="04">Challenges
+                <input type="checkbox" value="05">Open Source Community
+                <input type="checkbox" value="06">Gitter help rooms
+                <input type="checkbox" value="07">Videos
+                <input type="checkbox" value="08">City Meetups
+                <input type="checkbox" value="09">Wiki
+                <input type="checkbox" value="10">Forum
+                <input type="checkbox" value="03">Additional Courses
+            </label>
+<!-- Q15 -->
+            <textarea name="comments" id="comments" cols="30" rows="2">Any comments or suggestions</textarea>
+<!-- Q16 -->
+            <label for="Submit">
+                <input type="submit" id="submit">
+            </label>
+        </form>
+    </section>
+</body>
+</html>
